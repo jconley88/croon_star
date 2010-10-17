@@ -21,6 +21,7 @@ if ENV['MONGO_URL']
   ENV['MONGOID_DATABASE'] = mongo_uri.path.gsub('/', '')
 end
 
+
 module CroonStar
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
