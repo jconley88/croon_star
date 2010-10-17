@@ -1,3 +1,4 @@
+DOMAIN = "http://croonstar.r10.railsrumble.com"
 CroonStar::Application.configure do
 
   CarrierWave.configure do |config|

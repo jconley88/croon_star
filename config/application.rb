@@ -22,6 +22,7 @@ if ENV['MONGO_URL']
 end
 require 'will_paginate'
 
+DOMAIN = "http://web1.tunnlr.com:9901"
 
 module CroonStar
   class Application < Rails::Application
